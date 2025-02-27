@@ -19,6 +19,8 @@ CREATE TABLE Customers (
 
 ## Altering Column Data Types
 
+```sql
+
 -- Altering column data types for better query performance
 ALTER TABLE Customers  
 ALTER COLUMN Age INT;  
